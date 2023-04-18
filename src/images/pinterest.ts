@@ -3,7 +3,7 @@ import got from 'got'
 
 export default async function pinterest (query: string): Promise<string[]> {
   const data = await got(
-		`https://id.pinterest.com/search/pins/?autologin=true&q=${query}`,
+		`https://www.pinterest.com.mx/search/pins/?autologin=true&q=${query}`,
 		{
 		  headers: {
 		    'sec-ch-ua':
